@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Design Example</title>
+    <link rel="stylesheet" href="survey.css">  
+</head>
+<body>
+    <form action="" method="POST">
+       <div class="parent" style="position: static;">  
+       <div class="flname">
+          <label for="flname">
+            <b>Name</b>
+          </label>
+          <label for="asterik" style="color: red;">
+             *
+          </label><br>
+          <input type="text" id="fname" class="fname" placeholder="First Name" size="31%" style="height: 25px;">
+          <input type="text" id="lname" class="lname" placeholder="Last Name" size="31%" style="height: 25px; margin-left:20px ;" ><br>
+         
+            <label for="" >First</label>
+            <label for="" style="margin-left: 223px;">Last</label>
+        
+       </div>
+     
+    
+      <div class="mail">
+         <label for="email">
+            <b>Email</b>
+         </label>
+         <label for="asterik1" style="color: red;">
+            *
+         </label>
+         <div class="mailbox" >
+            <input type="email" size="72%" style="height: 25px;" >
+         </div>
+          
+      </div>
+      <div class="exp">
+         <label for="">
+            <b>
+               Your Experience
+            </b>
+         </label>
+         <label for="asterik2" style="color: red;">*</label>
+      </div>
+     <div class="star" style="width: 50%;">
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+     </div>
+     <div class="overall">
+        <label for="a">
+           Overall, how would you rate you experience with us ?
+        </label>
+     </div>
+     <div class="satisfy">
+        <label for=""><b>How satisfied are you with</b></label>
+        <label for="asteriek3" style="color: red;">*</label>
+     </div>
+     <table class="table1" style="width: 100%;">
+        <tr height="25px">
+           <td></td>
+           <td><label for=""><center>Very Unsatisfied</center></label></td>
+           <td><label for=""><center>Unsatisfied</center></label></td>
+           <td><label for=""><center>Neutral</center></label></td>
+           <td><label for=""><center>Satisfied</center></label></td>
+           <td><label for=""><center>Very Satisfied</center></label></td>
+         </tr>
+         <tr style="background-color: lightgrey;" height="25px">
+            <td>
+               <label for="Pur">Purchase</label>
+            </td>
+            <td><center><input type="radio"></center></td>
+            <td><center><input type="radio"></center></td>
+            <td><center><input type="radio"></center></td>
+            <td><center><input type="radio"></center></td>
+            <td><center><input type="radio"></center></td>
+         </tr>
+         <tr height="25px">
+            <td>
+               <label for="ser">Service</label>
+            </td>
+            <td><center><input type="radio"></center></td>
+            <td><center><input type="radio"></center></td>
+            <td><center><input type="radio"></center></td>
+            <td><center><input type="radio"></center></td>
+            <td><center><input type="radio"></center></td>
+         </tr>
+         <tr height="25px" style="background-color: lightgrey;">
+            <td>
+               <label for="oall">Company Overall</label>
+            </td>
+            <td><center><input type="radio"></center></td>
+            <td><center><input type="radio"></center></td>
+            <td><center><input type="radio"></center></td>
+            <td><center><input type="radio"></center></td>
+            <td><center><input type="radio"></center></td>
+         </tr>
+     </table>
+     <div class="b">
+        <label for=""><b>How likely are you to</b></label>
+         <label for="asterik" style="color: red;">*</label>
+      </div>
+      <table class="table2" style="width: 100%;">
+         <tr height="25px">
+            <td></td>
+            <td><label for=""></label><center>Very Unlikely</center></label></td>
+            <td><label for=""><center>Unlikely</label></center></td>
+            <td><label for=""><center>Neutral</label></center></td>
+            <td><label for=""><center>likely</label></center></td>
+            <td><label for=""><center>Very likely</center></label></td>
+         </tr>
+         <tr style="background-color: lightgrey;" height="25px">
+            <td><label for="">Buy from us again</label></td>
+            <td><center><input type="radio"></center></td>
+            <td><center><input type="radio"></center></td>
+            <td><center><input type="radio"></center></td>
+            <td><center><input type="radio"></center></td>
+            <td><center><input type="radio"></center></td>
+         </tr>
+         <tr height="25px">
+            <td><label for="">Recommend our<br>product to others</label></td>
+            <td><center><input type="radio"></center></td>
+            <td><center><input type="radio"></center></td>
+            <td><center><input type="radio"></center></td>
+            <td><center><input type="radio"></center></td>
+            <td><center><input type="radio"></center></td>
+         </tr>
+         <tr style="background-color: lightgrey;" height="25px">
+            <td><label for="">Recommend our<br>company to others</label></td>
+            <td><center><input type="radio"></center></td>
+            <td><center><input type="radio"></center></td>
+            <td><center><input type="radio"></center></td>
+            <td><center><input type="radio"></center></td>
+            <td><center><input type="radio"></center></td>
+         </tr>
+      </table>
+      <div class="t">
+         <label for=""><b>Additional comments or suggestions</b></label>
+      </div>
+      <div class="tt">
+         <textarea name="t" id="t" cols="100" rows="5"></textarea>
+      </div>
+      <div class="button">
+            <input type="submit" style="height: 45px; width: 70px;">
+      </div>
+   </div>
+    </form>
+</body>
+</html>
